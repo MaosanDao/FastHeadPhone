@@ -30,7 +30,7 @@ HeadPhoneUtils.getInstance().setDeviceScanResultListener(new DeviceScanResultLis
 HeadPhoneUtils.getInstance().setDeviceConnectStatusListener(new DeviceConnectStatusListener() {
             @Override
             public void connecting() {
-                //连接中
+              //连接中
             }
 
             @Override
