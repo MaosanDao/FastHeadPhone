@@ -1,5 +1,10 @@
 # FastHeadPhone
-一个可以快速搜索、绑定、连接、打开和关闭音频通道的工具类
+本工具类可以快速实现以下功能：
+* 搜索、绑定、连接蓝牙设备
+* 解绑一个或者所有蓝牙设备
+* 查看蓝牙设备的类型
+* 打开和关闭蓝牙音频传输通道
+
 ## 引入步骤
 * 下载 [FastHeadPhone.jar](https://github.com/MaosanDao/FastHeadPhone/blob/master/fastheadphone/fastheadphone.jar)
 * 将下载的`FastHeadPhone.jar`放入到app目录下的libs中
