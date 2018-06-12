@@ -1,4 +1,8 @@
 # FastHeadPhone
+![buildPassing](https://img.shields.io/bitbucket/pipelines/atlassian/adf-builder-javascript/task/SECO-2168.svg)
+![minSdk](https://img.shields.io/badge/minSdk-19-orange.svg)
+![jCenter](https://img.shields.io/badge/jCenter-0.0.1-blue.svg)
+
 本工具类可以快速实现以下功能：
 * 搜索、绑定、连接蓝牙设备
 * 解绑一个或者所有蓝牙设备
@@ -6,9 +10,10 @@
 * 打开和关闭蓝牙音频传输通道
 
 ## 引入步骤
-* 下载 [FastHeadPhone.jar](https://github.com/MaosanDao/FastHeadPhone/blob/master/fastheadphone/fastheadphone.jar)
-* 将下载的`FastHeadPhone.jar`放入到app目录下的libs中
-* 右键`FastHeadPhone.jar`文件，然后选择`Add as Library`
+### 将下方的lastVersion替换为上方jCenter的版本号
+```java
+implementation 'cn.vangelis:fastheadphone:$lastVersion$'
+```
 ## 使用步骤
 ### 初始化
 ```Java
@@ -80,7 +85,7 @@ HeadPhoneUtils.getInstance().setLogTag(String tag);
 ### Todo-List
 * 增加搜索的选项设置（搜索次数、搜索时间）
 ### 更新日志
-* 2018.03.28 发布版本 V1.0.0
+* 2018.03.28 发布版本 V0.0.1
 ### 说明
 此框架为自己的练手所用，请谨慎使用。手动滑稽.jpg
 ### 联系方式
