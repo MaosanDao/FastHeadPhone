@@ -51,32 +51,20 @@ HeadPhoneUtils.getInstance().setDeviceConnectStatusListener(new DeviceConnectSta
 ```
 ### 具体实用方法
 ```Java
-//开始搜索（自行设置回调方法）
+//开始搜索
 HeadPhoneUtils.getInstance().startDiscovery();
-//开始搜索（直接传入回调）
-HeadPhoneUtils.getInstance().startDiscovery(new DeviceConnectStatusListener());
-
 //停止搜索
 HeadPhoneUtils.getInstance().stopDiscovery();
-
 //连接
 HeadPhoneUtils.getInstance().connect(BluetoothDevice device);
-
 //解除一个设备的绑定
 HeadPhoneUtils.getInstance().unPairOneDevices(BluetoothDevice device);
 //解除所有绑定
 HeadPhoneUtils.getInstance().unPairAllDevices();
-
-//打开蓝牙音频道（自行设置回调方法）
+//打开蓝牙音频道
 HeadPhoneUtils.getInstance().openBluetoothSco();
-//打开蓝牙音频道（直接传入回调）
-HeadPhoneUtils.getInstance().openBluetoothSco(new OpenBluetoothScoListener());
-
-//关闭蓝牙音频道（自行设置回调方法）
+//关闭蓝牙音频道
 HeadPhoneUtils.getInstance().closeBluetoothSco();
-//关闭蓝牙音频道（直接传入回调）
-HeadPhoneUtils.getInstance().closeBluetoothSco(new CloseBluetoothScoListener());
-
 //销毁资源（*注意：销毁资源后，若要再次使用，则需要重新初始化一次*）
 HeadPhoneUtils.getInstance().destroy();
 ```
