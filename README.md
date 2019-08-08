@@ -90,3 +90,5 @@ HeadPhoneUtils.getInstance().setLogTag(String tag);
 此框架为自己的练手所用，请谨慎使用。手动滑稽.jpg
 ### 联系方式
 * QQ：460977141
+
+https://nxiot.oss-cn-hangzhou.aliyuncs.com/zijin_eaccount_release_v1.0.0.1.87.apk
